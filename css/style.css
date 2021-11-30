@@ -1,0 +1,36 @@
+#main-svg-container {
+    width: 80%;
+}
+
+#apple-leaf, #pear-leaf, #lemon-leaf, #grape-leaf, #orange-leaf {
+    animation: leaf 1s ease-in-out infinite alternate ;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes leaf {
+    from {
+        transform: rotateY(-20deg);
+    }
+    to {
+        transform: rotateY(40deg);
+    }
+}
+
+#button-ru, #button-en, #button-pt, #button-tr, #button-fr   {
+    cursor: pointer;
+}
+
+#button-ru:hover, #button-en:hover, #button-pt:hover, #button-tr:hover, #button-fr:hover {
+    animation: leaf 1s ease-in-out infinite alternate ;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
+}
