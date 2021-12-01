@@ -21,6 +21,10 @@
     cursor: pointer;
 }
 
+#apple, #orange, #pear, #grape, #lemon   {
+    cursor: pointer;
+}
+
 #button-ru:hover, #button-en:hover, #button-pt:hover, #button-tr:hover, #button-fr:hover {
     animation: leaf 1s ease-in-out infinite alternate ;
     transform-origin: center;
